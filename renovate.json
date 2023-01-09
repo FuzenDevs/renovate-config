@@ -26,7 +26,6 @@
         "major"
       ],
       "labels": ["dependencias", "actualizacion mayor"],
-      "dependencyDashboardApproval": true,
       "reviewers": ["wirlie"]
     }
   ]
