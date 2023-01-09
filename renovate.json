@@ -15,14 +15,16 @@
       ],
       "labels": ["dependencias", "actualizacion menor"],
       "groupName": "Dependencias menores",
-      "groupSlug": "all-minor-patch"
+      "groupSlug": "all-minor-patch",
+      "reviewers": ["wirlie"]
     },
     {
       "matchUpdateTypes": [
         "major"
       ],
       "labels": ["dependencias", "actualizacion mayor"],
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": true,
+      "reviewers": ["wirlie"]
     }
   ]
 }
