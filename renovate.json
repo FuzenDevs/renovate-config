@@ -19,6 +19,9 @@
       "reviewers": ["wirlie"]
     },
     {
+      "matchPackagePatterns": [
+        "*"
+      ],
       "matchUpdateTypes": [
         "major"
       ],
