@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "ignoreDeps": ["net.md-5:bungeecord", "com.github.LeonMangler:PremiumVanish", "github.jet315:antiafkpro"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "labels": ["dependencias", "actualizacion menor"],
+      "groupName": "Dependencias menores",
+      "groupSlug": "all-minor-patch"
+    },
+    {
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "labels": ["dependencias", "actualizacion mayor"],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}
