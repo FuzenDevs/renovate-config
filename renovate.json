@@ -26,7 +26,7 @@
       ],
       "labels": ["dependencias", "actualizacion mayor"],
       "groupName": "Angular (mayor)",
-      "groupSlug": "angular-patch",
+      "groupSlug": "angular-major-patch",
       "reviewers": ["wirlie"]
     },
     {
@@ -36,7 +36,7 @@
       ],
       "labels": ["dependencias", "actualizacion menor"],
       "groupName": "Angular (menor)",
-      "groupSlug": "angular-patch",
+      "groupSlug": "angular-minor-patch",
       "reviewers": ["wirlie"]
     },
     {
