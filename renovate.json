@@ -7,7 +7,7 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra"],
+      "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra", "^@angular-devkit/.*"],
       "matchUpdateTypes": [
         "major"
       ],
@@ -17,7 +17,7 @@
       "reviewers": ["wirlie"]
     },
     {
-      "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra"],
+      "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra", "^@angular-devkit/.*"],
       "matchUpdateTypes": [
         "minor", "patch"
       ],
