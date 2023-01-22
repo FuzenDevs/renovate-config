@@ -20,6 +20,16 @@
       "reviewers": ["wirlie"]
     },
     {
+      "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra"],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "labels": ["dependencias", "actualizacion mayor"],
+      "groupName": "Angular",
+      "groupSlug": "angular-patch",
+      "reviewers": ["wirlie"]
+    },
+    {
       "matchPackagePatterns": [
         "*"
       ],
