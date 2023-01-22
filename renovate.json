@@ -7,19 +7,6 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "labels": ["dependencias", "actualizacion menor"],
-      "groupName": "Dependencias menores",
-      "groupSlug": "all-minor-patch",
-      "reviewers": ["wirlie"]
-    },
-    {
       "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra"],
       "matchUpdateTypes": [
         "major"
@@ -47,6 +34,19 @@
         "major"
       ],
       "labels": ["dependencias", "actualizacion mayor"],
+      "reviewers": ["wirlie"]
+    },
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "labels": ["dependencias", "actualizacion menor"],
+      "groupName": "Dependencias menores",
+      "groupSlug": "all-minor-patch",
       "reviewers": ["wirlie"]
     }
   ]
