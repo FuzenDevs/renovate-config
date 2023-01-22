@@ -25,7 +25,17 @@
         "major"
       ],
       "labels": ["dependencias", "actualizacion mayor"],
-      "groupName": "Angular",
+      "groupName": "Angular (mayor)",
+      "groupSlug": "angular-patch",
+      "reviewers": ["wirlie"]
+    },
+    {
+      "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra"],
+      "matchUpdateTypes": [
+        "minor", "patch"
+      ],
+      "labels": ["dependencias", "actualizacion menor"],
+      "groupName": "Angular (menor)",
       "groupSlug": "angular-patch",
       "reviewers": ["wirlie"]
     },
