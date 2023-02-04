@@ -14,7 +14,8 @@
       "labels": ["dependencias", "actualizacion mayor"],
       "groupName": "Angular (mayor)",
       "groupSlug": "angular-major-patch",
-      "reviewers": ["wirlie"]
+      "reviewers": ["wirlie"],
+      "rebaseWhen": "never"
     },
     {
       "matchPackagePatterns": ["^@angular/.*", "angular/dev-infra", "^@angular-devkit/.*"],
@@ -34,7 +35,8 @@
         "major"
       ],
       "labels": ["dependencias", "actualizacion mayor"],
-      "reviewers": ["wirlie"]
+      "reviewers": ["wirlie"],
+      "rebaseWhen": "never"
     },
     {
       "matchPackagePatterns": [
