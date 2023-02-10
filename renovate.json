@@ -12,7 +12,7 @@
         "major"
       ],
       "labels": ["dependencias", "actualizacion mayor"],
-      "groupName": "Angular (mayor)",
+      "groupName": "Angular dependencias mayores",
       "groupSlug": "angular-major-patch",
       "reviewers": ["wirlie"],
       "rebaseWhen": "never"
@@ -23,9 +23,10 @@
         "minor", "patch"
       ],
       "labels": ["dependencias", "actualizacion menor"],
-      "groupName": "Angular (menor)",
+      "groupName": "Angular dependencias menores",
       "groupSlug": "angular-minor-patch",
-      "reviewers": ["wirlie"]
+      "reviewers": ["wirlie"],
+      "automerge": true
     },
     {
       "matchPackagePatterns": [
@@ -49,7 +50,8 @@
       "labels": ["dependencias", "actualizacion menor"],
       "groupName": "Dependencias menores",
       "groupSlug": "all-minor-patch",
-      "reviewers": ["wirlie"]
+      "reviewers": ["wirlie"],
+      "automerge": true
     }
   ]
 }
