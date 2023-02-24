@@ -29,7 +29,7 @@
       "automerge": true
     },
     {
-      "matchPackagePatterns": ["^org.springframework*."],
+      "matchPackagePatterns": ["^org.springframework.*"],
       "matchUpdateTypes": [
         "major"
       ],
@@ -40,7 +40,7 @@
       "rebaseWhen": "never"
     },
     {
-      "matchPackagePatterns": ["^org.springframework*."],
+      "matchPackagePatterns": ["^org.springframework.*"],
       "matchUpdateTypes": [
         "minor", "patch"
       ],
