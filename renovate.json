@@ -13,7 +13,7 @@
       ],
       "labels": ["dependencias", "actualizacion mayor"],
       "groupName": "Angular dependencias mayores",
-      "groupSlug": "angular-major-patch",
+      "groupSlug": "angular-major",
       "reviewers": ["wirlie"],
       "rebaseWhen": "never"
     },
@@ -25,6 +25,28 @@
       "labels": ["dependencias", "actualizacion menor"],
       "groupName": "Angular dependencias menores",
       "groupSlug": "angular-minor-patch",
+      "reviewers": ["wirlie"],
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["^org.springframework*."],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "labels": ["dependencias", "actualizacion mayor"],
+      "groupName": "Spring Boot dependencias mayores",
+      "groupSlug": "spring-boot-major",
+      "reviewers": ["wirlie"],
+      "rebaseWhen": "never"
+    },
+    {
+      "matchPackagePatterns": ["^org.springframework*."],
+      "matchUpdateTypes": [
+        "minor", "patch"
+      ],
+      "labels": ["dependencias", "actualizacion menor"],
+      "groupName": "Spring Boot dependencias menores",
+      "groupSlug": "spring-boot-minor-patch",
       "reviewers": ["wirlie"],
       "automerge": true
     },
